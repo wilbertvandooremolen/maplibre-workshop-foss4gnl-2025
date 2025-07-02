@@ -7,3 +7,7 @@ const map = new maplibregl.Map({
     center: [0, 0], // starting position [lng, lat]
     zoom: 1 // starting zoom
 });
+
+import { Protocol } from "https://esm.sh/pmtiles";
+const protocol = new Protocol();
+maplibregl.addProtocol("pmtiles", protocol.tile);
