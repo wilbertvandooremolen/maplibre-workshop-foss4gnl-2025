@@ -5,7 +5,7 @@ const map = new maplibregl.Map({
     container: 'mijnkaart', // container id
     //style: 'https://demotiles.maplibre.org/style.json', // style URL
     style: './assets/style.json',
-    center: [0, 0], // starting position [lng, lat]
+    center: [5.680337062453696, 51.966022790210062], // starting position [lng, lat]
     zoom: 1 // starting zoom
 });
 
